@@ -16,7 +16,7 @@ const NovidadesContainer = styled.section`
     background-image: none; /* Remove a imagem de fundo no mobile */
     padding: 3rem 2rem; /* Reduz o padding em dispositivos móveis */
     flex-direction: column; /* Organiza os itens em coluna no mobile */
-    text-align: center; /* Centraliza o texto no mobile */
+    text-align: left; /* Ajusta o alinhamento para a esquerda no mobile */
     justify-content: center; /* Centraliza o conteúdo */
   }
 `;
@@ -25,10 +25,14 @@ const TextContent = styled.div`
   width: 50%;
   padding-right: 2rem; /* Espaçamento extra para separação do texto da imagem */
 
+  @media (max-width: 768px) {
+    width: 70%; /* Ajusta a largura do content container para 70% no mobile */
+  }
+
   h2 {
-    width: 15em;
     font-size: 2.5rem;
     color: #938B80;
+    width: 100%; /* Ajusta o título para ocupar 100% da largura disponível */
 
     .highlight {
       color: #ef952b;
@@ -36,22 +40,20 @@ const TextContent = styled.div`
 
     @media (max-width: 768px) {
       font-size: 1.8rem; /* Reduz o tamanho da fonte no mobile */
-      width: 150%; /* Ajusta a largura do título no mobile */
-      text-align: center; /* Centraliza o título no mobile */
+      text-align: left; /* Alinha o título à esquerda no mobile */
     }
   }
 
   p {
-    width: 26em;
+    width: 100%; /* Faz o parágrafo ocupar toda a largura disponível */
     font-size: 1.1rem;
     color: #938B80;
     margin: 1.5rem 0;
+    text-align: left; /* Garante que o texto comece da esquerda */
 
     @media (max-width: 768px) {
-      width: 100%; /* Ajusta a largura do parágrafo no mobile */
-      font-size: 15px; /* Reduz o tamanho da fonte */
+      font-size: 1rem; /* Reduz o tamanho da fonte no mobile */
       margin: 1rem 0; /* Reduz o espaço entre o parágrafo e outros elementos */
-      text-align: center; /* Centraliza o texto no mobile */
     }
   }
 
