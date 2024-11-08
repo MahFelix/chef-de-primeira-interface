@@ -3,15 +3,17 @@ import styled from 'styled-components';
 import aula1 from '../assets/aula-1.png';
 import aula2 from '../assets/aula-2.png';
 import aula3 from '../assets/aula-3.png';
+import BGFRUT from '../assets/bg-cronograma-frut.jpg'
 
 const CronogramaContainer = styled.section`
   padding: 3rem;
-  background-color: #f9f9f9;
+  background-image: url(${BGFRUT});
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%;
-`;
+
+  `;
 
 const AulaCard = styled.div`
   display: flex;
@@ -122,7 +124,6 @@ const SubTitle = styled.p`
   color:#FB952F;
   margin-bottom: 3rem;
   text-align: center;
-
 
   @media (max-width: 768px) {
     font-size: 1rem; /* Ajusta o subtítulo para telas menores */

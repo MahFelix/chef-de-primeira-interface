@@ -1,6 +1,7 @@
 // src/components/NovidadesAvisos.js
 import styled from 'styled-components';
 import BGNOV from '../assets/bg-cronograma-3.png';
+import BGNOVMOBILE from '../assets/bg-cronograma-3mobile.jpg';  // Adicione sua imagem de fundo para o mobile
 
 const NovidadesContainer = styled.section`
   background-color: #fff;
@@ -13,7 +14,9 @@ const NovidadesContainer = styled.section`
   background-position: center;
 
   @media (max-width: 768px) {
-    background-image: none; /* Remove a imagem de fundo no mobile */
+    background-image: url(${BGNOVMOBILE}); /* Imagem de fundo para mobile */
+    background-size: cover;
+    background-position: center;
     padding: 3rem 2rem; /* Reduz o padding em dispositivos móveis */
     flex-direction: column; /* Organiza os itens em coluna no mobile */
     text-align: left; /* Ajusta o alinhamento para a esquerda no mobile */
@@ -26,13 +29,14 @@ const TextContent = styled.div`
   padding-right: 2rem; /* Espaçamento extra para separação do texto da imagem */
 
   @media (max-width: 768px) {
-    width: 70%; /* Ajusta a largura do content container para 70% no mobile */
+    width:110%; /* Ajusta a largura do content container para 70% no mobile */
   }
 
   h2 {
     font-size: 2.5rem;
     color: #938B80;
     width: 100%; /* Ajusta o título para ocupar 100% da largura disponível */
+    
 
     .highlight {
       color: #ef952b;
