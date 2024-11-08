@@ -10,6 +10,7 @@ const CronogramaContainer = styled.section`
   flex-direction: column;
   align-items: center;
   width: 100%;
+  background-color: #EBEBEB;
 
   `;
 
