@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+// src/App.js
+import GlobalStyle from './globalStyle';
+import Header from './components/Header';
+import Cronograma from './components/Cronograma';
+import NovidadesAvisos from './components/NovidadesAvisos';
+import EventoInfo from './components/EventoInfo';
+import Footer from './components/Footer';
+import MaximoChef from './components/MaximoChef';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <GlobalStyle /> {/* Aplica os estilos globais */}
+      <Header />
+      <Cronograma />
+      <NovidadesAvisos />
+      <MaximoChef/>
+      <EventoInfo />
+      <Footer />
     </div>
   );
 }
