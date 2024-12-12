@@ -1,4 +1,3 @@
-// src/components/EventoInfo.js
 import React, { useEffect, useState } from 'react';
 import styled from 'styled-components';
 
@@ -11,9 +10,9 @@ const EventoContainer = styled.section`
   justify-content: center;
   align-items: center;
   padding: 3rem;
-  height: 25vh; /* Ocupa 25% da altura da tela */
+  height: 25vh; 
   gap: 50px;
-  flex-wrap: wrap; /* Permite que os itens se ajustem em telas menores */
+  flex-wrap: wrap; 
 
   @media (max-width: 768px) {
     height: auto;
@@ -27,9 +26,9 @@ const Countdown = styled.div`
   display: flex;
   justify-content: center;
   gap: 2rem;
-  font-size: 3rem; /* Aumenta o tamanho da fonte */
+  font-size: 3rem; 
   font-weight: bold;
-  flex-wrap: wrap; /* Permite que o conteúdo se ajuste em telas menores */
+  flex-wrap: wrap; 
 
   div {
     display: flex;
@@ -64,7 +63,7 @@ export default function EventoInfo() {
   const [timeLeft, setTimeLeft] = useState({ days: 0, hours: 0, minutes: 0, seconds: 0 });
 
   useEffect(() => {
-    const targetDate = new Date('2024-12-01T00:00:00'); // Defina a data do evento
+    const targetDate = new Date('2025-01-30T00:00:00'); // Defina a data do evento
 
     const interval = setInterval(() => {
       const now = new Date();

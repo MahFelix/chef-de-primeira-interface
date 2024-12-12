@@ -16,7 +16,7 @@ const CronogramaContainer = styled.section`
 
 const AulaCard = styled.div`
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   background-color: #fff;
   border-radius: 12px;
@@ -24,7 +24,7 @@ const AulaCard = styled.div`
   padding: 2rem;
   margin: 1.5rem 0;
   width: 100%;
-  max-width: 1200px;
+ 
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 
   &:hover {

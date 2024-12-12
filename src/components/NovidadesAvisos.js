@@ -8,7 +8,6 @@ const NovidadesContainer = styled.section`
   padding: 7rem;
   display: flex;
   align-items: center;
-  justify-content: center; /* Adiciona o centro horizontal */
   background-image: url(${BGNOV});
   background-size: cover;
   background-position: center;
@@ -25,6 +24,7 @@ const NovidadesContainer = styled.section`
 `;
 
 const TextContent = styled.div`
+ align-items: flex-start;
   width: 50%;
   padding-right: 2rem; /* Espaçamento extra para separação do texto da imagem */
 

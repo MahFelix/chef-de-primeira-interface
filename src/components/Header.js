@@ -12,14 +12,17 @@ const HeaderContainer = styled.header`
   background-image: url(${BGHEADER});
   background-size: cover;
   background-position: center;
-  background-color: #fff;
+  background-color: #EBEBEB;
 
   @media (max-width: 768px) {
     background-image: url(${BGMobile}); /* Imagem de fundo diferente para mobile */
     padding: 5rem 2rem; /* Reduz o padding em dispositivos móveis */
     text-align: center; /* Centraliza o texto no mobile */
+    background-size: cover; /* Garante que a imagem ainda seja redimensionada adequadamente */
+    background-position: center;
   }
 `;
+
 
 const Logo = styled.img`
   width: 200px;
