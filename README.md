@@ -15,8 +15,6 @@
 <img src="https://github.com/MahFelix/chef-de-primeira-interface/blob/master/src/assets/AppReactChef.jpeg"> 
 
 <h1>Sobre o Projeto</h1>
-<br>
-<br>
 <h3>Este repositório contém a implementação de um site para um infoproduto, desenvolvido com duas abordagens diferentes:</h3>
 <br>
 <h2>WordPress com Elementor: Uma versão do site criada utilizando a flexibilidade e facilidade do Elementor no WordPress.</h2>
