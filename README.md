@@ -63,6 +63,8 @@ Design responsivo e moderno, garantindo uma ótima experiência em dispositivos 
 
 <h1>Como Executar a Versão React:</h1>
 
+Deploy do site em funcionamentO > <a href="https://chefdeprimeira.netlify.app/" />
+
 <h2>Clone este repositório:</h2>
 
 git clone https://github.com/seu-usuario/chef-de-primeira-interface.git
@@ -93,7 +95,7 @@ O site estará disponível em http://localhost:3000.
 
 <h2>Email: agnaldo12543@hotmail.com</h2>
 
-<h2>LinkedIn: <a https://www.linkedin.com/in/agnaldofelix/) />
+<h2>LinkedIn: <a href="https://www.linkedin.com/in/agnaldofelix/" />
 
 <h1>brigado por conferir este projeto! 😊</h1>
 
