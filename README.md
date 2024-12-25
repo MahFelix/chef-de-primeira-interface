@@ -1,4 +1,4 @@
-<h1>README - Projeto de Infoproduto ( Curso )</h1>
+<h1>Projeto de Infoproduto ( Curso )</h1>
 <br>
 <br>
 <h1>Sobre o Projeto</h1>
@@ -6,26 +6,26 @@
 <br>
 <h1>Este repositório contém a implementação de um site para um infoproduto, desenvolvido com duas abordagens diferentes:</h1>
 <br>
-<p>WordPress com Elementor: Uma versão do site criada utilizando a flexibilidade e facilidade do Elementor no WordPress.</p>
+<h2>WordPress com Elementor: Uma versão do site criada utilizando a flexibilidade e facilidade do Elementor no WordPress.</h2>
 
-<p>Aplicação React: Uma implementação personalizada do site utilizando React, Styled Components, e JavaScript, aproveitando React Hooks para gerenciar o estado e lógica da aplicação.</p>
+<h2>Aplicação React: Uma implementação personalizada do site utilizando React, Styled Components, e JavaScript, aproveitando React Hooks para gerenciar o estado e lógica da aplicação.</h2>
 
-<p>O design original foi criado no Figma, e as artes foram elaboradas no Photoshop CS6 para garantir um visual atrativo e profissional.</p>
+<h2>O design original foi criado no Figma, e as artes foram elaboradas no Photoshop CS6 para garantir um visual atrativo e profissional.</h2>
 <br>
 <br>
 <h1>Tecnologias Utilizadas</h1>
 
 <h2>Ferramentas de Design</h2>
 
-Figma: Para criação do design e prototipagem.
+<h2>Figma: Para criação do design e prototipagem.
 
-Photoshop CS6: Para criação de artes visuais e elementos gráficos do site.
+<h2>Photoshop CS6: Para criação de artes visuais e elementos gráficos do site.
 
-<h2>Desenvolvimento WordPress</h2>
+<h1>Desenvolvimento WordPress</h1>
 
-WordPress
+<h2>WordPress</h2>
 
-Elementor: Plugin utilizado para construção de páginas.
+<h2>Elementor: Plugin utilizado para construção de páginas.</h2>
 
 <h1>Desenvolvimento com React</h1>
 
