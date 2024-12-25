@@ -1,21 +1,21 @@
 // src/App.js
 import GlobalStyle from './globalStyle';
 import Header from './components/Header';
-import Cronograma from './components/Cronograma';
-import NovidadesAvisos from './components/NovidadesAvisos';
-import EventoInfo from './components/EventoInfo';
+import Timeline from './components/Timeline';
+import NewsAndNotes from './components/NewsAndNotices';
+import EventInfo from './components/EventInfo';
 import Footer from './components/Footer';
-import MaximoChef from './components/MaximoChef';
+import MaximumChef from './components/MaximumChef';
 
 function App() {
   return (
     <div>
       <GlobalStyle /> {/* Aplica os estilos globais */}
       <Header />
-      <Cronograma />
-      <NovidadesAvisos />
-      <MaximoChef/>
-      <EventoInfo />
+      <Timeline />
+      <NewsAndNotes />
+      <MaximumChef/>
+      <EventInfo />
       <Footer />
     </div>
   );
