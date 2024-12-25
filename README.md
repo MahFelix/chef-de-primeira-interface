@@ -1,70 +1,94 @@
-# Getting Started with Create React App
+<h1>README - Projeto de Infoproduto ( Curso )</h1>
+<br>
+<br>
+<h1>Sobre o Projeto</h1>
+<br>
+<br>
+<h1>Este repositório contém a implementação de um site para um infoproduto, desenvolvido com duas abordagens diferentes:</h1>
+<br>
+<p>WordPress com Elementor: Uma versão do site criada utilizando a flexibilidade e facilidade do Elementor no WordPress.</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p>Aplicação React: Uma implementação personalizada do site utilizando React, Styled Components, e JavaScript, aproveitando React Hooks para gerenciar o estado e lógica da aplicação.</p>
 
-## Available Scripts
+<p>O design original foi criado no Figma, e as artes foram elaboradas no Photoshop CS6 para garantir um visual atrativo e profissional.</p>
+<br>
+<br>
+<h1>Tecnologias Utilizadas</h1>
 
-In the project directory, you can run:
+<h2>Ferramentas de Design</h2>
 
-### `npm start`
+Figma: Para criação do design e prototipagem.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Photoshop CS6: Para criação de artes visuais e elementos gráficos do site.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<h2>Desenvolvimento WordPress</h2>
 
-### `npm test`
+WordPress
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Elementor: Plugin utilizado para construção de páginas.
 
-### `npm run build`
+<h1>Desenvolvimento com React</h1>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<h2>React: Biblioteca principal para a construção da aplicação.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Styled Components: Para estilização baseada em componentes.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+JavaScript: Linguagem de programação utilizada.
 
-### `npm run eject`
+React Hooks: Para gerenciamento de estado e efeitos na aplicação. </h2>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<h1>Funcionalidades do Site</h1>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<h2>Página inicial com apresentação clara e visual do infoproduto.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Seções com detalhes sobre o produto e seus benefícios.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Botões de call-to-action (CTA) para conversão.
 
-## Learn More
+Design responsivo e moderno, garantindo uma ótima experiência em dispositivos móveis.</h2>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<h1>Como Executar a Versão React</h1>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<h1>Clone este repositório:</h1>
 
-### Code Splitting
+git clone https://github.com/seu-usuario/chef-de-primeira-interface.git
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Acesse o diretório do projeto:
 
-### Analyzing the Bundle Size
+cd chef-de-primeira-interface
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Instale as dependências:
 
-### Making a Progressive Web App
+npm install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Inicie o servidor de desenvolvimento:
 
-### Advanced Configuration
+npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+O site estará disponível em http://localhost:3000.
 
-### Deployment
+</h1>Não será possível a visualização do site no wordpress, foi criado em um local privado ( localwp)</h1>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+<h1>Design no Figma</h1>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<img src="https://github.com/MahFelix/chef-de-primeira-interface/blob/master/src/assets/DesignFigma.jpeg"> 
+
+<h1>Arte no Photoshop</h1>
+
+<img src="https://github.com/MahFelix/chef-de-primeira-interface/blob/master/src/assets/BGChefdePrimeiraCS6.jpeg"> 
+
+<h1>Página Inicial (React)</h1>
+
+<img src="https://github.com/MahFelix/chef-de-primeira-interface/blob/master/src/assets/AppReactChef.jpeg"> 
+
+<h1>Contato</h1>
+
+<h1>Se tiver dúvidas ou sugestões, entre em contato comigo:</h1>
+
+<h2>Email: agnaldo12543@hotmail.com</h2>
+
+<h2>LinkedIn: <a https://www.linkedin.com/in/agnaldofelix/) />
+
+<h1>brigado por conferir este projeto! 😊</h1>
+
