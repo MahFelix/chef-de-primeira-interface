@@ -91,9 +91,9 @@ O site estará disponível em http://localhost:3000.
 
 <h1>Contato</h1>
 
-<h1>Se tiver dúvidas ou sugestões, entre em contato comigo:</h1>
+<h2>Se tiver dúvidas ou sugestões, entre em contato comigo:</h1>
 
-<h2>Email: agnaldo12543@hotmail.com</h2>
+<h3>Email: agnaldo12543@hotmail.com</h2>
 
 [Linkedin](https://www.linkedin.com/in/agnaldofelix/) 
 
