@@ -96,5 +96,5 @@ O site estará disponível em http://localhost:3000.
 <h2>Email: agnaldo12543@hotmail.com</h2>
 
 [Linkedin](https://www.linkedin.com/in/agnaldofelix/) 
-<h1>brigado por conferir este projeto! 😊</h1>
+
 
